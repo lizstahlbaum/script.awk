@@ -11,7 +11,8 @@ NR>1{
         }}
 {if ($5=="diseased")
         {DEAD+=1}       }
-END {
+}
+        END {
 if (TREE_COUNT>0){
         print "Average old tree width = "AVG/TREE_COUNT
 }
